@@ -19,6 +19,14 @@
     border-radius: 10px 0 10px 0;
     width: 100px;
 }
+.btn-2{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border: solid 1px #fff;
+    border-radius: 10px 0 10px 0;
+    width: 100px;
+}
 .btn-1:hover{
 background-color: transparent;
 border: solid 1px white;
