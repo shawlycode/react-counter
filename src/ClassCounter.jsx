@@ -17,7 +17,7 @@ class ClassCounter extends Component {
     }
     render() {
         return (
-            <div>
+            <div style={{textAlign: "center"}}>
                 <h1>Counter:{this.state.count}</h1>
                 <button onClick={this.handleDecreaseCount}>Decrease</button>
                 &nbsp;
