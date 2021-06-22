@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './ClassCounter.css'
 class ClassCounter extends Component {
     constructor (props){
         super(props)
@@ -17,11 +17,11 @@ class ClassCounter extends Component {
     }
     render() {
         return (
-            <div style={{textAlign: "center"}}>
-                <h1>Counter:{this.state.count}</h1>
-                <button onClick={this.handleDecreaseCount}>Decrease</button>
+            <div className="FuncDiv" style={{textAlign: "center"}}>
+                <h2 FnxCounter1>Counter:{this.state.count}</h2>
+                <button className="btn-2" onClick={this.handleDecreaseCount}>Decrease</button>
                 &nbsp;
-                <button onClick={this.handleIncreaseCount}>Increase</button>
+                <button  className="btn-1" onClick={this.handleIncreaseCount}>Increase</button>
             </div>
         )
     }
